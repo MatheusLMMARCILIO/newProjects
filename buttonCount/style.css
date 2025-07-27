@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.display {
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.adicionar{
+  background-color: #28a745;
+  color: white;
+}
+
+.menos {
+  background-color: #dc3545;
+  color: white;
+}
+
+
+
+button:hover,
+.menos:hover ,
+.adicionar:hover ,
+.reset:hover {
+  opacity: 0.9;
+}
